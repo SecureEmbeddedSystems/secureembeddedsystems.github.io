@@ -1,0 +1,15 @@
+#container-heading {
+      background:        linear-gradient(to right, rgba(0,0,0,1.0) 0%,rgba(0,0,0,0.6) 100%), url("../img/banner-cubes.jpg");
+      background:-webkit-linear-gradient(to right, rgba(0,0,0,1.0) 0%,rgba(0,0,0,0.6) 100%), url("../img/banner-cubes.jpg");
+      background:   -moz-linear-gradient(to right, rgba(0,0,0,1.0) 0%,rgba(0,0,0,0.6) 100%), url("../img/banner-cubes.jpg");
+      background-position:top right;
+    }
+#navelement-about {
+      color:#226666;
+    }
+#about-headshot-bielawski {
+      width:300px;
+      position:relative;
+      float:left;
+      padding:0 0.75em 0.75em 0;
+    }

@@ -1,0 +1,62 @@
+#container-heading {
+      background:        linear-gradient(to right, rgba(0,0,0,1.0) 0%,rgba(0,0,0,0.6) 100%), url("../img/banner-head.jpg");
+      background:-webkit-linear-gradient(to right, rgba(0,0,0,1.0) 0%,rgba(0,0,0,0.6) 100%), url("../img/banner-head.jpg");
+      background:   -moz-linear-gradient(to right, rgba(0,0,0,1.0) 0%,rgba(0,0,0,0.6) 100%), url("../img/banner-head.jpg");
+      background-position:right top 54%;
+    }
+#navelement-home {
+      color:#226666;
+    }
+#services-top-infographic-image {
+      margin-top:-12px;
+    }
+.services-content-top-infographic-image {
+      margin-bottom:-40px;
+      text-align:center;
+    }
+.services-content-top-infographic-image, .services-content-top-infographic-text {
+      padding:0;
+    }
+.services-content-top-infographic-image, #services-top-infographic-image {
+      overflow:hidden;
+    }
+@media screen and (min-width:300px) {
+#services-top-infographic-image {
+      width:300px;
+      margin-top:-24px;
+    }
+.services-content-top-infographic-image {
+      width:100%;
+      height:310px;
+      margin-bottom:-60px;
+    }
+}
+@media screen and (min-width:750px) {
+#services-top-infographic-image {
+      width:365px;
+      margin-left:-30px;
+      margin-top:-25px;
+    }
+.services-content-top-infographic-image {
+      float:right;
+      width:300px;
+      margin-bottom:0;
+    }
+}
+@media screen and (min-width:1000px) {
+#container-heading {
+      background-position:right 100% top 54%;
+    }
+}
+@media screen and (min-width:1260px) {
+#services-top-infographic-image {
+      width:400px;
+      margin-left:-24px;
+      margin-top:-30px;
+    }
+.services-content-top-infographic-image {
+      height:360px;
+      width:340px;
+      margin-top:-12px;
+    }
+}
